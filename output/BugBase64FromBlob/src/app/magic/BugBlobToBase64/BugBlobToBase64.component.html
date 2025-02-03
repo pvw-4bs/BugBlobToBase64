@@ -1,0 +1,37 @@
+<div
+    novalidate
+    [formGroup]="screenFormGroup"
+>
+    <div
+        style="display: flex; flex-direction: column"
+        [magic]="mgc.BugBlobToBase64"
+    >
+        <div style="display: flex; flex-direction: row">
+            <button
+                mat-raised-button
+                color="primary"
+                [magic]="mgc.btn_Cancel"
+            >
+                {{mg.getValue(mgc.btn_Cancel)}}
+            </button>
+        </div>
+      <div>
+        <h2>Javascript error in console after pressing button</h2>
+        <code>
+          core.mjs:6531 ERROR TypeError: Cannot read properties of null (reading 'Length')<br />
+          at _RecordUtils.byteStreamToString_0 (magic-xpa-gui.mjs:7083:58)<br />
+          at _RecordUtils.byteStreamToString (magic-xpa-gui.mjs:7076:32)<br />
+          at Expression.<br />
+            (magic-xpa-engine.mjs:22194:38)<br />
+            at Generator.next (<br />
+              )<br />
+              at fulfilled (chunk-YRCLCCAM.js?v=d5ed36d1:68:24)<br />
+              at _ZoneDelegate.invoke (zone.js:369:28)<br />
+              at Object.onInvoke (core.mjs:14882:33)<br />
+              at _ZoneDelegate.invoke (zone.js:368:34)<br />
+              at ZoneImpl.run (zone.js:111:43)<br />
+              at zone.js:2538:40<br />
+        </code>
+      </div>
+    </div>
+</div>

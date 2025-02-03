@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14110.00"/>
+    <WithIsn val="Y"/>
+  </Header>
+
+  <ProgramsRepositoryHeaders>
+    <Program>
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <LastModified _date="739285" _time="50029" date="03/02/2025" time="13:53:49"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <Closeopentasks val="N"/>
+        <RunProjectAs val="O"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+      </Header>
+      <SourceFileTimeStamp _date="739285" _time="46429" date="03/02/2025" time="12:53:49"/>
+    </Program>
+    <Program>
+      <Header Description="BugBlobToBase64" ISN_2="1" LastIsn="1" id="2">
+        <LastModified _date="739285" _time="51973" date="03/02/2025" time="14:26:13"/>
+        <Public val="BugBlobToBase64"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="W"/>
+        <Interactive val="Y"/>
+        <RoutePath val="BugBlobToBase64"/>
+        <External val="Y"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+      </Header>
+      <SourceFileTimeStamp _date="739285" _time="48373" date="03/02/2025" time="13:26:13"/>
+    </Program>
+  </ProgramsRepositoryHeaders>
+
+</Application>

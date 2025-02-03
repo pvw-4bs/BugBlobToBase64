@@ -1,0 +1,35 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"BugBlobToBase64",
+		"component_path":	"BugBlobToBase64/",
+		"component_uniquename":	"BugBlobToBase64_BugBlobToBase64"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	0,
+		"height":	0
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btn_Cancel",
+				"attribute":	"A",
+				"common_line_id":	"line128"
+			},
+			"coordinates":	{
+				"x":	78,
+				"y":	128,
+				"width":	185,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		}
+	]
+}

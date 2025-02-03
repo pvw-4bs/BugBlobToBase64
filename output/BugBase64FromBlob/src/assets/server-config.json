@@ -1,0 +1,11 @@
+{
+   "protocol": "http",
+   "server": "4BSLTPVW.4BS.local",
+   "requester": "MagicScripts411/MGrqispi.dll",
+   "appname": "BugBase64FromBlob",
+   "LogClientSequenceForActivityMonitor": "N",
+   "InternalLogLevel": "",
+   "InternalLogSync": "Message",
+   "DisplayGenericError": "N",
+   "FirstHTTPRequestTimeout": "5"
+}

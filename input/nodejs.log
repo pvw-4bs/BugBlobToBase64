@@ -1,0 +1,42 @@
+Generation output:
+
+ Generate Modules
+
+C:\Users\pvanwinckel\source\repos\BugBlobToBase64\output\BugBase64FromBlob>echo off 
+copying files
+
+
+
+C:\Users\pvanwinckel\source\repos\BugBlobToBase64\output\BugBase64FromBlob>echo off 
+generating modules
+[V-CLI] cmd.exe /c ng g @magic-xpa/cli:modules
+   Number of modules to be check for generate: 1
+Nothing to be done.
+
+Generate Components
+
+C:\Users\pvanwinckel\source\repos\BugBlobToBase64\output\BugBase64FromBlob>echo off 
+copying files
+
+
+
+C:\Users\pvanwinckel\source\repos\BugBlobToBase64\output\BugBase64FromBlob>echo off 
+generating components
+[V-CLI] cmd.exe /c ng g @magic-xpa/cli:magic
+[>]  ********************************* START    GENERATE *********************************
+   Number of modules to be check for generate: 1
+[>]           ******    Start Web Module name : []    *******
+*** Step 1: Loading JSON files ***
+[>] Loading JSON file .//magic-metadata/BugBlobToBase64/BugBlobToBase64.json
+*** Step 2: Processing JSON files -  (1 components) ***
+[>] Processing JSON file for component BugBlobToBase64
+*** Step 3: generate components. (1 components) ***
+[>] generate component BugBlobToBase64
+[>] Step 4: components-list.
+[>]  ********************************* E N D    GENERATE *********************************
+UPDATE src/app/magic/BugBlobToBase64/BugBlobToBase64.mg.controls.g.ts (603 bytes)
+UPDATE src/app/magic/BugBlobToBase64/BugBlobToBase64.component.ts (739 bytes)
+UPDATE src/app/magic/BugBlobToBase64/BugBlobToBase64.component.html (463 bytes)
+
+
+

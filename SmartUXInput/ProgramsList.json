@@ -1,0 +1,19 @@
+[
+	{
+		"programName":	"BugBlobToBase64",
+		"isnPrg":	2,
+		"forms":	[
+			{
+				"formName":	"BugBlobToBase64",
+				"formId":	"/BugBlobToBase64/BugBlobToBase64",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		]
+	}
+]
